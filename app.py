@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'static/UPLOAD_FOLDER'
 UPLOADS_PATH = join(dirname(realpath(__file__)), UPLOAD_FOLDER)
-ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
 image_object = None
 
@@ -22,6 +22,8 @@ def allowed_file(filename):
 def upload_file():
     print("Request")
     print(request)
+    print("request form")
+    print(request.form.to_dict())
     print("Request Data")
     print(request.data)
     print("Request.files Here")
@@ -50,21 +52,15 @@ def upload_file():
             print(app.config['UPLOAD_FOLDER'], filename)
             path_split = image_path.split("static")
             path_string = "static" + path_split[1]
-            print("image path")
-            print(path_string)
-            print("url : ******")
-            print(request.url)
-            print("url for: ******")
             uploads_url = url_for('uploaded_file',filename=filename)
             uploads_url = uploads_url[1:]
-            print(uploads_url)
 
             img_src = request.url + uploads_url
             print(img_src)
 
             image_object = {"path": img_src}
             #image_object= { "path": url_for('uploaded_file')+"/"+filename }
-            return redirect(url_for('upload_file'))
+            return redirect(url_for('uploaded_file',filename=filename))
     return render_template("index.html", image = image_object)
 
 
