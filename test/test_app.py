@@ -14,9 +14,6 @@ class ImageTest(unittest.TestCase):
     # executed prior to each test
     def setUp(self):
         self.dir = os.path.dirname(os.path.realpath(__file__))
-        #app.config['TESTING'] = True
-        #app.config['WTF_CSRF_ENABLED'] = False
-        app.config['DEBUG'] = False
         self.app = app.test_client()
 
 
@@ -29,16 +26,16 @@ class ImageTest(unittest.TestCase):
 
     def test_image(self):
 
-        with open(self.dir + '/test_image/scarjo.jpeg', 'rb') as img1:
-            img1StringIO = io.BytesIO(img1.read())
+        with open(self.dir + '/test_image/scarjo.jpeg', 'rb') as test_image:
+            test_imae_BytesIO = io.BytesIO(test_image.read())
             global image_string
-            image_string = (img1StringIO.read())
+            image_string = (test_imae_BytesIO.read())
 
-            img1StringIO.seek(0)
+            test_imae_BytesIO.seek(0)
 
             response = self.app.post('/',
                                  content_type='multipart/form-data',
-                                 data={'file': (img1StringIO, 'scarjo.jpeg')},
+                                 data={'file': (test_imae_BytesIO, 'scarjo.jpeg')},
                                  follow_redirects=True)
 
         assert response.data == image_string;

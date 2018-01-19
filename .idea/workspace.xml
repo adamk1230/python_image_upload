@@ -4,7 +4,14 @@
     <list default="true" id="c07a3fec-d954-4eda-8188-6904aef4a775" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change beforePath="$PROJECT_DIR$/test/test_basic.py" afterPath="$PROJECT_DIR$/test/test_basic.py" />
+      <change beforePath="$PROJECT_DIR$/static/UPLOAD_FOLDER/Screen_Shot_2017-09-15_at_2.30.38_PM.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/UPLOAD_FOLDER/Screen_Shot_2017-10-23_at_1.09.00_PM.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/UPLOAD_FOLDER/Screen_Shot_2017-10-23_at_1.09.00_PM.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/UPLOAD_FOLDER/Screen_Shot_2017-12-04_at_2.44.10_PM.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/UPLOAD_FOLDER/Screen_Shot_2018-01-16_at_10.27.10_AM.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/UPLOAD_FOLDER/anne.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/UPLOAD_FOLDER/test.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/test_basic.py" afterPath="$PROJECT_DIR$/test/test_app.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -27,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_basic.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_basic.py">
+      <file leaf-file-name="test_app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -42,8 +49,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -65,8 +72,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/test/test_basic.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -115,6 +122,16 @@
               <item name="python_image_upload" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_image_upload" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_image_upload" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_image_upload" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_basic.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_app.py">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +184,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests in test_basic.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_app.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -178,16 +195,16 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_image_upload" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_basic.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_app.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.app" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_basic.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_app.py" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_basic.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_app.py" />
         <item index="1" class="java.lang.String" itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -209,34 +226,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 27m 08s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 30m 25s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 30m 39s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 31m 56s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 34m 04s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 34m 13s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 34m 26s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 35m 19s.xml">
-      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_app_py - 2018.01.19 at 15h 44m 43s.xml">
+      <configuration name="Unittests in test_app.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 14h 35m 25s.xml">
       <configuration name="Unittests in test_basic.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 01m 08s.xml">
+      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 25m 23s.xml">
+      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 25m 35s.xml">
+      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 25m 39s.xml">
+      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 28m 06s.xml">
+      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 36m 27s.xml">
+      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 36m 31s.xml">
+      <configuration name="Unittests in test_basic.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_basic_py - 2018.01.19 at 15h 43m 47s.xml">
       <configuration name="Unittests in test_basic.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -247,7 +264,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28133333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28133333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -289,7 +306,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_basic.py">
+    <entry file="file://$PROJECT_DIR$/test/test_app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
@@ -317,7 +334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_basic.py">
+    <entry file="file://$PROJECT_DIR$/test/test_app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
@@ -354,26 +371,26 @@
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py" />
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/test/test_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_basic.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
