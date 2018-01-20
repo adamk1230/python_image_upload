@@ -1,6 +1,10 @@
 language: python
 python:
-  - "3.6"
+- '3.6'
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 script: pytest
+deploy:
+  provider: heroku
+  api_key:
+    secure: uuBjBUor/5VkoZO3AQ7XswT/dgXWA8JG7IEFxP0IefrkYvUaf0oI3Pj1boqhviVBnXwsN5XoTy0pih0PiOwTHHHS/zwn+WpP5OuhgLoK5TB2WCzAQPzi/7GIfiKRducyqw91mJSor0zdO+1ju/wzKg5bkOMIR8iL5bok71Vgi8grDtgIhsuvQWGH/XwOdGYrLkegIp+2I9BqiuRCDlgrCYK2ULDBBt+W6EEja8TzWSBk2tdgJcKR7hOfTnq9fQYXWWAQoYnwQGuiTgDn5f7nini7Z4drxN6g7OsfXLOe69UxADJenBsPz6z9UQmfIwH6VCXv9b1ZCIEUJnpaLEBlmXBS6LDUTCtDDRbMNBymUh7/1cl6xUYdsC2Nwh0mI1fa7DIo8O9GelxwC7Nj4XpxlM6DPpGk4C0DGfo5Wlv8w8blayiuSz3Erk04DlJBX63N0f4iRBPO4M7x8bJdbtr0cz5BKkfpCNo2o6n7iRTKummz/wxoG0ZZMQ+DniXXpQr58eMLu5qfLS9fmRyPmPIW1+EGMjzRjwsjqtcDYG3jd766KKir3FIDlHsPjhavvCM5Gfm8+4jT307sHuHClq4YwioMiQMBchdYbF1zek97mRLU9h1EshB+rTHCI8BxyxIbtxTc9Nc7deppnF9hZZ6Eh+45ULr1fr6dYy/UJdL9Lqk=
