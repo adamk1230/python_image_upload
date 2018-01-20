@@ -8,6 +8,6 @@ deploy:
   provider: heroku
   api_key:
     secure: X4FRI4CCxrV2o6nDmXR/q7tFvRrWdcd8zLKABe99LtEL10Fqn+QQf+arrmBHUxhN8aVFTJn3iGA/8tYXwZYgbA684su8XmehWQWNni0osHmik1AbwzI4SEepKjBGZqKcfWQk7FJTRrThss6Nqn0o1hpyX4Al94dbnObmprZ+iCV4u8F79fNK/AYlfNysNgDTqz0qnvl6ehSc+TUtzQcnpuHYIvbS33rIK/izAz8u3C8iIx4E/7TwOAW0bnSez3LnicI2DU+nGoJMszDdlz4+xmypN649hxlpHwjYGgyEipX5mh+/F+WETMbFnbdtFTxnPyyNxLL8ERWL6FLTMuzg0r/0C1b8CNRyPkrmpoOBvutpl6ewpNNlU0m51eGkkWcg0izIFA8CUP3DKqySnnXzR+VLIhgC52Iw0BCxmmcEQ4j0vfE/+LKZNYH/sh0Ajog192IAIiH6uW1FRR+SP4AtTH5v3MIVS1ieX+uLTXeaG5iDbiLs/cE+HO9aFDsyR5TjRFGP6MPNa9XHkHXcU8YpNnjyvf6aV48deC8FDVie1lc9W+BeMRMFfsQFPsPC/ZlBv4K78DLTYRUYZrEyFedOn6NPTqaRGegFyM+CWPM87b3GnUCdV2Iqu57uMLu3ngcvFqEI1Cnhxsb5LmHEj5Yy/GHHDoPy5Nyd5f2MDq0uSrw=
-  app: python_image_upload
+  app: morning-retreat-50618
   on:
     repo: adamk1230/python_image_upload
