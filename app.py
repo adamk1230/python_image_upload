@@ -1,13 +1,16 @@
 import os
+import io
 from os.path import join, dirname, realpath
-from flask import Flask, render_template, redirect, url_for, request, send_from_directory
+from flask import Flask, render_template, redirect, url_for, request, send_from_directory, send_file
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'static/UPLOAD_FOLDER'
 UPLOADS_PATH = join(dirname(realpath(__file__)), UPLOAD_FOLDER)
+#extension validation
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
-image_object = None
+#set global variable to be used in upload_file() and uploaded_file()
+stream_file = None
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOADS_PATH
@@ -32,28 +35,26 @@ def upload_file():
             flash('No selected file')
             return redirect(request.url)
         if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
-            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            #call the global variable
+            global stream_file
+            #set stream_file as a BytesIO Object
+            stream_file = io.BytesIO()
+            #save the request file to stream_file
+            file.save(stream_file)
+            #set the objects position to the beginning of the file
+            stream_file.seek(0)
 
-            #building the url for the img src
-            uploads_url = url_for('uploaded_file',filename=filename)
-            uploads_url = uploads_url[1:]
 
-            img_src = request.url + uploads_url
-
-            #building the object for Jinja
-            global image_object
-            image_object = {"path": img_src}
-
-            return redirect(url_for('uploaded_file',filename=filename))
-    return render_template("index.html", image = image_object)
+            return redirect(url_for('uploaded_file'))
+    return render_template("index.html")
 
 
 #route to send image to browser
-@app.route('/uploads/<filename>')
-def uploaded_file(filename):
+@app.route('/uploads')
+def uploaded_file():
 
-    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
+    #use the send_file helper to send the image back to the browser
+    return send_file(stream_file, attachment_filename="img.jpeg")
 
 
 if __name__ == "__main__":
