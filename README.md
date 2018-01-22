@@ -11,6 +11,7 @@ A webapp where the user uploads an image, the image is then stored in-memory as 
 * Python
 * Flask
 * Gunicorn
+* Werkzeug
 
 ### Unit Testing
 
